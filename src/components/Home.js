@@ -28,9 +28,9 @@ const Home = () => {
         mental health professional or psychiatrist can accurately diagnose ADHD,
         and if needed, recommend a treatment plan.
       </p>
-      <button className="rounded p-3 bg-blue-600 text-white md:w-1/4">
-        <Link to="/quiz">Take Quiz</Link>
-      </button>
+      
+        <Link to="/quiz" className="rounded p-3 bg-blue-600 text-white md:w-1/4 mt-2">Take Quiz</Link>
+      
     </div>
   );
 }
