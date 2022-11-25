@@ -28,25 +28,21 @@ const QuizResultModal =({result})=>{
         <div>
            <div className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-30 bg-white
            w-[75%] md:w-[40%] lg:w-[30%] rounded-[16px] p-6 text-[1.1rem]">
-            <h2 className="text-center mb-4 font-semibold">Your results</h2>
-            <h1 className="text-center mb-4 font-bold">ADHD {finalComment}</h1>
+            <h2 className="text-center mb-2 font-semibold">Your results</h2>
+            <h1 className="text-center mb-2 font-bold">ADHD {finalComment}</h1>
             <hr />
-            <h2 className="mb-4 font-semibold">your total score is {result} out of 58</h2>
-            <h3 className="mb-4 font-semibold">Result of your Quiz</h3>
-            <p>
+            <h2 className="mb-2 font-semibold">your total score is {result} out of 58</h2>
+            <h3 className="mb-2 font-semibold">Result of your Quiz</h3>
+            <p className="text-[1rem]">
             You have answered this anxiety screening in such a way as to 
             suggest that you are {finalComment}  suffering from an anxiety disorder. 
-            Remember that a little anxiety in normal, everyday life is to be expected and is a 
-            good thing. Nobody should be without any anxiety whatsoever, as anxiety is our body's 
-            way of telling us that we should pay closer attention to a situation, event or person 
-            in our lives (even if that person is ourselves). Scoring in this range suggests you have 
-            that {finalComment === "unlikely"?
-             "normal level of anxiety but would not likely qualify for an anxiety disorder diagnosis.":""} 
+            {finalComment === "unlikely"?
+             "Remember that a little anxiety in normal, everyday life is to be expected and is a good thing. Nobody should be without any anxiety whatsoever, as anxiety is our body's way of telling us that we should pay closer attention to a situation, event or person in our lives (even if that person is ourselves). Scoring in this range suggests you have that normal level of anxiety but would not likely qualify for an anxiety disorder diagnosis.":""} 
              {finalComment === "possiblely"?
-             " you may or may not have attention deficit disorder. People who have answered similarly to you sometimes qualify for a diagnosis of ADHD or ADD. Some people with scores similar to yours have sought professional treatment for this concern; others have not.":""} 
+             " Based upon your responses to this adult ADHD screening quiz, you may or may not have attention deficit disorder. People who have answered similarly to you sometimes qualify for a diagnosis of ADHD or ADD. Some people with scores similar to yours have sought professional treatment for this concern; others have not.":""} 
             
              {finalComment === "likely"?
-             "you may very well have an adult attention deficit disorder. People who have answered similarly to you typically qualify for a diagnosis of ADHD or ADD, and have sought professional treatment for this mental health concern.":""} 
+             "Based upon your responses to this adult ADHD screening quiz, you may very well have an adult attention deficit disorder. People who have answered similarly to you typically qualify for a diagnosis of ADHD or ADD, and have sought professional treatment for this mental health concern.":""} 
             
             </p>
             <div className="flex justify-center">

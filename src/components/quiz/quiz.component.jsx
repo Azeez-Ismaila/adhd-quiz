@@ -44,7 +44,7 @@ const Quiz =()=>{
     return(
         <>
         <div className=" flex justify-center mb-6 ">
-          <div className="w-[95%] md:w-[90%] lg:w-[80%] bg-pink-200 text-[1.1rem] md:text-[1.5rem] font-bold p-3">
+          <div className="w-[95%] md:w-[90%] lg:w-[80%] bg-blue-200 text-[1.1rem] md:text-[1.5rem] font-bold p-3">
           <h2 className="underline">instructions</h2>
             <p>
             Simply answer the questions on how you have behaved and felt
