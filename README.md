@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# ADHD QUIZ APP
+ This app tells you what ADHD is and provides you with a quiz to check if you likely have ADHD or not.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
