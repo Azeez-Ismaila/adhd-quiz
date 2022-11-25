@@ -27,7 +27,7 @@ const QuizResultModal =({result})=>{
     return(
         <div>
            <div className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-30 bg-white
-           w-[75%] md:w-[40%] lg:w-[30%] rounded-[16px] p-6 text-[1.1rem]">
+           w-[90%] h-auto md:w-[40%] lg:w-[30%] rounded-[16px] p-6 text-[1.1rem]">
             <h2 className="text-center mb-2 font-semibold">Your results</h2>
             <h1 className="text-center mb-2 font-bold">ADHD {finalComment}</h1>
             <hr />
@@ -46,7 +46,7 @@ const QuizResultModal =({result})=>{
             
             </p>
             <div className="flex justify-center">
-            <Link to="/" className="bg-blue-400 text-white px-6 py-3 rounded-[16px] hover:bg-blue-600 mt-2 "> go back to homepage</Link>
+            <Link to="/" className="bg-blue-400 text-white px-6 py-3 rounded-[16px] hover:bg-blue-600 mt-2 ">Homepage</Link>
             </div>
            
            </div>
