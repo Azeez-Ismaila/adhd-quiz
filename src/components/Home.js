@@ -29,7 +29,7 @@ const Home = () => {
         and if needed, recommend a treatment plan.
       </p>
       
-        <Link to="/quiz" className="rounded p-3 bg-blue-600 text-white md:w-1/4 mt-2">Take Quiz</Link>
+        <Link to="/quiz" className="rounded p-3 bg-blue-600 text-white md:w-1/4 mt-2 mb-1">Take Quiz</Link>
       
     </div>
   );
