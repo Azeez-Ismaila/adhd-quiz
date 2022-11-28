@@ -49,7 +49,7 @@ const QuizResultModal =({result})=>{
             
             
             <div className="flex justify-center">
-            <Link to="/" className="bg-blue-400 text-white px-6 py-3 rounded-[16px] hover:bg-blue-600 mt-2 "> go back to homepage</Link>
+            <Link to="/" className="bg-blue-400 text-white px-6 py-3 rounded-[16px] hover:bg-blue-600 mt-2 ">Homepage </Link>
             </div>
            
            </div>
